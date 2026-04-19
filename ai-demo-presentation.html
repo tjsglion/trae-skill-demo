@@ -446,7 +446,7 @@
             top: clamp(0.5rem, 1vh, 0.65rem);
             width: clamp(8px, 1.2vw, 10px);
             height: clamp(8px, 1.2vw, 10px);
-            background: var(--(accent-cyan);
+            background: var(--(accent-cyan));
             border-radius: 50%;
             box-shadow: 0 0 15px var(--accent-glow-cyan);
         }
@@ -691,6 +691,61 @@
         </div>
 
         <div class="slide-number">05</div>
+    </section>
+
+    <!-- Slide 6: Summary & Best Practices -->
+    <section class="slide">
+        <div class="grid-bg"></div>
+        <div class="gradient-overlay"></div>
+        <div class="particles">
+            <div class="particle" style="width: 4px; height: 4px; background: var(--accent-cyan); left: 15%; top: 20%; animation-delay: 0s;"></div>
+            <div class="particle" style="width: 6px; height: 6px; background: var(--accent-magenta); left: 85%; top: 30%; animation-delay: 1s;"></div>
+            <div class="particle" style="width: 3px; height: 3px; background: var(--accent-cyan); left: 25%; top: 70%; animation-delay: 2s;"></div>
+            <div class="particle" style="width: 5px; height: 5px; background: var(--accent-magenta); left: 75%; top: 80%; animation-delay: 0.5s;"></div>
+            <div class="particle" style="width: 4px; height: 4px; background: var(--accent-cyan); left: 50%; top: 15%; animation-delay: 1.5s;"></div>
+        </div>
+
+        <div class="slide-content">
+            <div class="badge badge-accent reveal">总结</div>
+            <h2 class="reveal"><span class="gradient-text">Skill 使用总结</span></h2>
+            <p class="reveal">最佳实践与注意事项</p>
+
+            <div class="two-col grid-2-col" style="margin-top: clamp(1.5rem, 3vh, 2rem);">
+                <div>
+                    <h3 class="reveal-left" style="color: var(--accent-cyan);">何时使用 Skill</h3>
+                    <ul class="bullet-list reveal-left" style="margin-top: clamp(0.5rem, 1vh, 0.75rem);">
+                        <li>复杂多步骤任务需要拆解</li>
+                        <li>特定领域知识的专业处理</li>
+                        <li>需要特定工具集的工作</li>
+                        <li>重复性标准化流程</li>
+                        <li>跨多个文件的系统性修改</li>
+                    </ul>
+                </div>
+                <div>
+                    <h3 class="reveal-left" style="color: var(--accent-magenta);">避免使用 Skill</h3>
+                    <ul class="bullet-list reveal-left" style="margin-top: clamp(0.5rem, 1vh, 0.75rem);">
+                        <li>简单的单次操作</li>
+                        <li>直接可用的工具调用</li>
+                        <li>不明确的模糊需求</li>
+                        <li>需要上下文连贯的对话</li>
+                        <li>纯研究/探索性任务</li>
+                    </ul>
+                </div>
+            </div>
+
+            <div class="feature-grid reveal" style="margin-top: clamp(2rem, 4vh, 3rem);">
+                <div class="feature-card">
+                    <h3 style="color: var(--accent-cyan);">最佳实践</h3>
+                    <p>提供清晰简洁的指令，明确预期结果，避免过度指令依赖上下文的推理能力</p>
+                </div>
+                <div class="feature-card">
+                    <h3 style="color: var(--accent-magenta);">关键要点</h3>
+                    <p>Skill 是 BLOCKING REQUIREMENT，匹配时必须先调用，不可猜测或发明 Skill 名称</p>
+                </div>
+            </div>
+        </div>
+
+        <div class="slide-number">06</div>
     </section>
 
     <nav class="nav-dots"></nav>
